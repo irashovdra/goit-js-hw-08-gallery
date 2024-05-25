@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <ul class="js-gallery">
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo1.jpg">
+          <img
+            class="gallery__image"
+            src="./images/photo1.jpg"
+            alt="photo1"
+            data-source="./images/photo1.jpg"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo2.webp">
+          <img
+            class="gallery__image"
+            src="./images/photo2.webp"
+            alt="photo2"
+            data-source="./images/photo2.webp"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo3.jpg">
+          <img
+            class="gallery__image"
+            src="./images/photo3.jpg"
+            alt="photo3"
+            data-source="./images/photo3.jpg"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo4.avif">
+          <img
+            class="gallery__image"
+            src="./images/photo4.avif"
+            alt="photo4"
+            data-source="./images/photo4.avif"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo5.jpg">
+          <img
+            class="gallery__image"
+            src="./images/photo5.jpg"
+            alt="photo5"
+            data-source="./images/photo5.jpg"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo6.jpg">
+          <img
+            class="gallery__image"
+            src="./images/photo6.jpg"
+            alt="photo6"
+            data-source="./images/photo6.jpg"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo7.png">
+          <img
+            class="gallery__image"
+            src="./images/photo7.png"
+            alt="photo7"
+            data-source="./images/photo7.png"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo8.webp">
+          <img
+            class="gallery__image"
+            src="./images/photo8.webp"
+            alt="photo8"
+            data-source="./images/photo8.webp"
+          />
+        </a>
+      </li>
+      <li class="gallery__item">
+        <a class="gallery__link" href="./images/photo9.jpg">
+          <img
+            class="gallery__image"
+            src="./images/photo9.jpg"
+            alt="photo9"
+            data-source="./images/photo9.jpg"
+          />
+        </a>
+      </li>
+    </ul>
+
+    <div class="js-lightbox lightbox">
+      <div class="lightbox__overlay"></div>
+      <div class="lightbox__content">
+        <img class="lightbox__image" src="" alt="" />
+        <button
+          type="button"
+          class="lightbox__button"
+          data-action="close-lightbox"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
